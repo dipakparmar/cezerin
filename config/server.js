@@ -1,6 +1,6 @@
 // config used by server side only
 
-const dbHost = process.env.DB_HOST || 'cluster0-ixhlf.mongodb.net/test';
+const dbHost = process.env.DB_HOST || 'cluster0-ixhlf.mongodb.net';
 const dbPort = process.env.DB_PORT || 27017;
 const dbName = process.env.DB_NAME || 'cluster0'
 const dbUser = process.env.DB_USER || 'demouser';
